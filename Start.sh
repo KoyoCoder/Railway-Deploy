@@ -4,7 +4,7 @@ then
 
   echo "Cloning main Repository"
 
-  git clone https://github.com/StarkBug/KushinaAnimeBot.git /KushinaAnimeBot
+  git clone https://github.com/Koyocoder/KushinaAnimeBot.git /KushinaAnimeBot
 
 else
 
