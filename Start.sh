@@ -4,20 +4,20 @@ then
 
   echo "Cloning main Repository"
 
-  git clone https://github.com/StarkBug/StarkBugBot.git /StarkBugBot
+  git clone https://github.com/StarkBug/KushinaAnimeBot.git /KushinaAnimeBot
 
 else
 
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
 
-  git clone $UPSTREAM_REPO /StarkBugBot
+  git clone $UPSTREAM_REPO /KushinaAnimeBot
 
 fi
 
-cd /StarkBugBot
+cd /KushinaAnimeBot
 
 pip3 install -U -r requirements.txt
 
 echo "Starting Bot...."
 
-python3 bot.py
+python3 ./KushinaAnimeBot/__int__.py
